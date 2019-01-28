@@ -32,7 +32,7 @@ var game = {
     },
     play: function(){
         var number = Math.floor(Math.random() * 2);
-        var answer = words[number];
-
+        var answer = words[number].split("");
+        
     }
 }
